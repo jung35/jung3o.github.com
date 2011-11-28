@@ -2,4 +2,4 @@
 
 I wander how this is gonna go.
 
-### !!!! I did not make the theme !!!!
+### !!!! I did not make the theme & the JQuery script !!!!
