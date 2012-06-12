@@ -1,0 +1,258 @@
+/**
+ * Github Page for Http://jung3o.github.com
+ */
+
+/** CSS RESET **/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**
+ * Page style
+ */
+html,body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	background: #333;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#header {
+	text-align:center;
+	padding:10px 0;
+	width:960px;
+	margin:auto;
+	background: #333;
+	color:#fff;
+	font-weight: 300;
+}
+
+.menu {
+	position:relative;
+	top:-7px;
+	font-size: 16px;
+	display:inline-block;
+	margin:0 20px;
+	font-weight:bold;
+}
+
+.logo {
+	display:inline-block;
+	font-family: 'Passion One', cursive;
+	font-size:48px;
+	margin:0 20px;
+}
+
+a {
+	color:#fff;
+	text-decoration:none;
+}
+
+a:hover .hl {
+	color:#7ab5ac;
+}
+
+.hl {
+	color:#a8f2e7;
+}
+
+.hor_bar {
+	width:100%;
+	background: #1e1e1e;
+	height:10px;
+}
+
+.hor_bar:before {
+	content: "";
+	display:block;
+	border-top:1px solid #1e1e1e;
+	border-bottom:2px solid #181818;
+	min-width:100%;	
+}
+
+.wrapper {
+	overflow: hidden; 
+	width:960px;
+	margin:auto;
+	color:#fff;
+	font-size:18px;
+}
+
+.sidebar {
+	margin-bottom: -5000px; 
+	padding-bottom: 5000px; 
+	height:100%;
+	float:right;
+	min-width:255px;
+	max-width:255px;
+	border-left:5px solid #1e1e1e;
+	display:inline-block;
+	font-size:12px;
+}
+
+.sidebar ul {
+	overflow-x:hidden;
+	margin:0 30px;
+	padding:0;
+}
+
+.sidebar li {
+	margin:0 0 20px;
+	list-style:none;
+}
+
+.sidebar a {
+	text-decoration:underline;
+}
+
+.sidebar h2 {
+	font-weight:bold;
+	margin:20px 20px;
+	font-size:20px;
+	text-align:center;
+	border-bottom:2px solid white;
+}
+
+.content {
+	display:inline-block;
+	min-width:695px;
+	max-width:695px;
+}
+
+.notice {
+	margin:10px 0 20px 100px;
+	display:inline-block;
+	background: url('heart.png') no-repeat left center;
+	padding:3px 0 2px 25px;
+	font-size:12px;
+	font-weight:bold;
+	color:#f2a8a8;
+}
+
+.notice a {
+	color:#a8f2e7;
+}
+
+.notice a:hover {
+	color:#7ab5ac;
+}
+
+.blog {
+	margin:0 0 25px;
+}
+
+h3 {
+	font-weight:bold;
+	font-size:18px;
+	margin:0 0 10px;
+}
+
+.b_date {
+	font-size:12px;
+}
+
+.b_paragraph {
+	display:inline;
+	padding:0 0 0 40px;
+	font-size:12px !important;
+
+}
+
+#jekyll {
+	display:inline-block;
+}
+
+#jekyll .page-header {
+	font-weight:900;
+	font-size:26px;
+	padding:0 0 20px;
+}
+
+#jekyll p {
+	font-size:12px;
+	line-height:18px;
+}
+
+#jekyll h2 {
+	padding:20px 0 5px;
+	font-size:22px;
+	font-weight:900;
+}
+
+#jekyll h3 {
+	padding:15px 0 0;
+	font-size:16px;
+	font-weight:600;
+}
+
+#jekyll ul {
+	font-size:12px;
+	line-height:18px;
+	list-style:disc;
+	padding:0 0 0 25px;
+}
+
+#jekyll h1 {
+	padding:20px 0 0;
+	font-weight:900;
+	font-size:26px;
+}
+
+#jekyll pre {
+	font-size:12px;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	font-family:Monospace;
+	max-width:500px;
+	width:500px;
+	margin:0 0 20px 30px;
+	padding:10px;
+	background:#333;
+	border:1px solid #555;
+}
