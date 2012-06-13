@@ -187,7 +187,6 @@ a:hover .hl {
 h3 {
 	font-weight:bold;
 	font-size:18px;
-	margin:0 0 10px;
 }
 
 .b_date {
@@ -223,8 +222,14 @@ h3 {
 }
 
 #jekyll h3 {
-	padding:15px 0 0;
-	font-size:16px;
+	padding:15px 0 10px;
+	font-size:18px;
+	font-weight:600;
+}
+
+#jekyll h4 {
+	padding:10px 0 5px;
+	font-size:15px;
 	font-weight:600;
 }
 
