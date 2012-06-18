@@ -1,7 +1,7 @@
 ---
 layout: post
 category : general
-tags : [mybb,plugin,php]
+tags : [mybb, plugin, php]
 ---
 {% include JB/setup %}
 
