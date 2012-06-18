@@ -210,6 +210,15 @@ h3 {
 	padding:0 0 20px;
 }
 
+#jekyll a {
+	color:#A8F2E7;
+	font-weight:600;
+}
+
+#jekyll a:hover {
+	color:#7ab5ac;
+}
+
 #jekyll p {
 	font-size:12px;
 	line-height:18px;
@@ -259,5 +268,36 @@ h3 {
 	margin:0 0 20px 30px;
 	padding:10px;
 	background:#333;
+	border:1px solid #555;
+}
+
+.pagination li {
+	display:inline-block;
+	list-style:none;
+	padding:0 10px;
+}
+
+.pagination ul {
+	padding:0 !important;
+}
+
+.tag_box {
+	display:inline-block;
+	padding:0 !important;
+	list-style:none;
+}
+
+.tag_box li {
+	display:inline-block;
+	padding:0 5px;
+}
+
+.tag_box li span {
+	display: inline-block;
+	background:#222;
+	padding:0 5px;
+	color:#e3fbf7;
+	-webkit-border-radius: 3px;
+	border-radius: 3px; 
 	border:1px solid #555;
 }
